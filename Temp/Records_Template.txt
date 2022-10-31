@@ -3,7 +3,7 @@
       "Description":"[DESC]",
       "Type":"[TYPE]",
       "Status":"[STATUS]",
-      "DownloadStatus":"Completed",
+      "DownloadStatus":"[DOWNSTATUS]",
       "ClientID":"[CLIENTID]",
       "Reason":"[REASON]"
    },
