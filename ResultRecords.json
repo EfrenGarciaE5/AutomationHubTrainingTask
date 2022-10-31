@@ -1,0 +1,24 @@
+[
+
+
+   {
+      "WIID":"88074322",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Completed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88074247",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Completed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   }
+
+]

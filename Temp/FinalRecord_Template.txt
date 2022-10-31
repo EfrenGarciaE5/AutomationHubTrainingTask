@@ -1,0 +1,9 @@
+   {
+      "WIID":"[WIID]",
+      "Description":"[DESC]",
+      "Type":"[TYPE]",
+      "Status":"[STATUS]",
+      "DownloadStatus":"Completed",
+      "ClientID":"[CLIENTID]",
+      "Reason":"[REASON]"
+   }
