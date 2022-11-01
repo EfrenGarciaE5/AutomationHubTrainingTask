@@ -1,36 +1,20 @@
 ﻿WIID,Description,Type,Date,ClientID,HashKey,Status,Reason
-88074322,Verify Account Position,WI1,,,,Skiped,Skip not WI5
-88074247,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074262,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074272,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074233,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074291,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074340,Verify Account Position,WI1,,,,Skiped,Skip not WI5
-88074229,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074246,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074348,Verify Account Position,WI1,,,,Skiped,Skip not WI5
-88074241,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074268,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074235,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074295,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074249,Process Vendor Invoice,WI3,,,,Skiped,Skip not WI5
-88074239,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074274,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074300,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074317,Verify Account Position,WI1,,,,Skiped,Skip not WI5
-88074240,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074266,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074245,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074232,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
-88074320,Verify Account Position,WI1,,,,Skiped,Skip not WI5
-88074279,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074263,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074328,Verify Account Position,WI1,,,,Skiped,Skip not WI5
-88074290,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074259,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074226,Calculate Client Security Hash,Calculate Client Security Hash,2018-08-01,GF87351,62d99e30c95596c7598721eci6e9ae819203f262,Completed,
-88074254,Process Vendor Invoice,WI3,,,,Skiped,Skip not WI5
-88074257,Process Vendor Invoice,WI3,,,,Skiped,Skip not WI5
-88074288,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
-88074211,Calculate Client Security Hash,Calculate Client Security Hash,2017-08-02,BL17488,121433c029217dd32ee98a4b3e7754e22df47313,Failed,Techinal issue
-88074310,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
+
+88149037,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
+88149026,Calculate Client Security Hash,Calculate Client Security Hash,2017-07-22,QS86336,e0e697530033bd3fed511531954a73af4c5397c5,Completed,
+88149055,Process Vendor Invoice,WI3,,,,Skiped,Skip not WI5
+88149059,Process Vendor Invoice,WI3,,,,Skiped,Skip not WI5
+88149040,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
+88149073,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
+88149092,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
+88149074,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
+88149070,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
+88149100,Verify Account Position,WI1,,,,Skiped,Skip not WI5
+88149048,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
+88149116,Verify Account Position,WI1,,,,Skiped,Skip not WI5
+88149103,Verify Account Position,WI1,,,,Skiped,Skip not WI5
+88149058,Process Vendor Invoice,WI3,,,,Skiped,Skip not WI5
+88149068,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
+88149106,Verify Account Position,WI1,,,,Skiped,Skip not WI5
+88149083,Research Client Check Copy,WI2,,,,Skiped,Skip not WI5
+88149050,Generate Yearly Report for Vendor,WI4,,,,Skiped,Skip not WI5
