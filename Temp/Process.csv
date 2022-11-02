@@ -1,7 +1,7 @@
 ﻿Actions,WIID,Description,Type,Status,Date
 ,88149044,Generate Yearly Report for Vendor,WI4,Open,2021-11-06
 ,88149037,Generate Yearly Report for Vendor,WI4,Open,2017-06-18
-,88149026,Calculate Client Security Hash,WI5,Open,2017-07-22
+,88149026,Calculate Client Security Hash,WI5,Completed,2017-07-22
 ,88149055,Process Vendor Invoice,WI3,Open,2020-01-29
 ,88149059,Process Vendor Invoice,WI3,Open,2021-01-26
 ,88149040,Generate Yearly Report for Vendor,WI4,Open,2017-07-22
