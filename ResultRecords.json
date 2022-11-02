@@ -1119,6 +1119,2196 @@
       "DownloadStatus":"Failed",
       "ClientID":"",
       "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208609",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208580",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208615",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208618",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208582",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208659",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208644",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208648",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208579",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208559",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"0256329",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208630",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208620",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208587",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208617",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208570",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"AD55686",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208626",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208647",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208668",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208633",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208643",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208667",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208588",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208610",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"86208563",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"DB83622",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208656",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208651",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208654",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208561",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"AZ79829",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208605",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208573",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208661",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208599",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208597",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208616",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208666",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208652",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208585",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208566",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"PU23971",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208629",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208574",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208577",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208650",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208607",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208611",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208663",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208622",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208623",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208619",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208586",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"86208564",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"RN58561",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208576",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208655",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208613",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208632",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208603",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208572",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"KK58395",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208568",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"TD88219",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208614",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208634",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208578",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208645",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208565",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"RX80036",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208649",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208624",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208590",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208662",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208596",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208598",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208608",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208612",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208660",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208591",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208653",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208560",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"EU67601",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208601",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208640",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208639",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208600",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208589",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208637",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208595",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208625",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208604",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208636",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208592",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208575",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208571",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"FT44139",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208628",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208635",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208583",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208593",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208621",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208658",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"86208567",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"HT69354",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208584",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208665",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208602",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208642",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208638",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208641",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208627",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208657",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208631",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208646",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208581",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"86208562",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"Kl44163",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208594",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208664",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208606",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208569",
+      "Description":"Calculate Client Security Hash",
+      "Type":"Calculate Client Security Hash",
+      "Status":"Completed",
+      "DownloadStatus":"Completed",
+      "ClientID":"PW19167",
+      "Reason":""
+   },
+
+   {
+      "WIID":"88208609",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208580",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208615",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208618",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208582",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208659",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208644",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208648",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208579",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208559",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208630",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208620",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208587",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208617",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208570",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208626",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208647",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208668",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208633",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208643",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208667",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208588",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208610",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208563",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208656",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208651",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208654",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208561",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208605",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208573",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208661",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208599",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208597",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208616",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208666",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208652",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208585",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208566",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208629",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208574",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208577",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208650",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208607",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208611",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208663",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208622",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208623",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208619",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208586",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208564",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208576",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208655",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208613",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208632",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208603",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208572",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208568",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208614",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208634",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208578",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208645",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208565",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208649",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208624",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208590",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208662",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208596",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208598",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208608",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208612",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208660",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208591",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208653",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208560",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208601",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208640",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208639",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208600",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208589",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208637",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208595",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208625",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208604",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208636",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208592",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208575",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208571",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208628",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208635",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208583",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208593",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208621",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208658",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208567",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208584",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208665",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208602",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208642",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208638",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208641",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208627",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208657",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208631",
+      "Description":"Research Client Check Copy",
+      "Type":"WI2",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208646",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208581",
+      "Description":"Generate Yearly Report for Vendor",
+      "Type":"WI4",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208562",
+      "Description":"Calculate Client Security Hash",
+      "Type":"WI5",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip in record"
+   },
+
+   {
+      "WIID":"88208594",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208664",
+      "Description":"Verify Account Position",
+      "Type":"WI1",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
+   },
+
+   {
+      "WIID":"88208606",
+      "Description":"Process Vendor Invoice",
+      "Type":"WI3",
+      "Status":"Skiped",
+      "DownloadStatus":"Failed",
+      "ClientID":"",
+      "Reason":"Skip not WI5"
    }
 
 ]

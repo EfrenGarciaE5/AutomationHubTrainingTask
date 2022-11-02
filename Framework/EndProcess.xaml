@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="EndProcess" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:euhe="clr-namespace:Element5_Core.Utils.Hooks.Execution_Hooks;assembly=Element5.Core" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:t="clr-namespace:TrainingLibrary;assembly=TrainingLibrary" xmlns:this="clr-namespace:" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="EndProcess" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:euhe="clr-namespace:Element5_Core.Utils.Hooks.Execution_Hooks;assembly=Element5.Core" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:t="clr-namespace:TrainingLibrary;assembly=TrainingLibrary" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Flow config provided by the  begin task activity" Name="in_FlowConfig" Type="InArgument(njl:JObject)" />
     <x:Property Name="in_SummaryFieldNames" Type="InArgument(scg:List(x:String))" />
@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1054,705</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1054,911</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>EndProcess_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="59">
@@ -75,7 +75,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="42">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="84">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -117,9 +117,11 @@
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="EndProcess" sap:VirtualizedContainerService.HintSize="326,640" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="EndProcess" sap:VirtualizedContainerService.HintSize="376,846" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ResultRecords" />
       <Variable x:TypeArguments="x:String" Name="SummaryMessage" />
@@ -130,11 +132,12 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <t:Logout sap:VirtualizedContainerService.HintSize="284,22" sap2010:WorkflowViewState.IdRef="Logout_1" />
-    <t:KillBrowser sap:VirtualizedContainerService.HintSize="284,22" sap2010:WorkflowViewState.IdRef="KillBrowser_1" in_Application="chrome.exe" />
-    <t:CreateResultJSON sap:VirtualizedContainerService.HintSize="284,22" sap2010:WorkflowViewState.IdRef="CreateResultJSON_1" in_FinalJSON="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;LastWorkItemJSON&quot;).ToString]" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_MiddleInformationTemplate="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;RecordsJSON&quot;).ToString]" in_ResultRecordsTemplate="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FInalTemplateJSON&quot;).ToString]" />
-    <t:End_Hook sap:VirtualizedContainerService.HintSize="284,22" sap2010:WorkflowViewState.IdRef="End_Hook_1" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_SummaryFieldNames="[in_SummaryFieldNames]" out_ResultRecords="[ResultRecords]" out_SummaryMessage="[SummaryMessage]" out_SummaryResultJson="[SummaryResultJSON]" />
-    <euhe:End_Task_Execution DisplayName="End Task Execution" sap:VirtualizedContainerService.HintSize="284,238" sap2010:WorkflowViewState.IdRef="End_Task_Execution_1" SummaryResultObject="[IF(String.IsNullOrEmpty(SummaryResultJson),&quot;{}&quot;,SummaryResultJson)]" TaskResult="[ResultRecords]" TaskResultSummary="[SummaryMessage]" TaskRunStatus="Completed" __Prefix="[IO.Directory.GetCurrentDirectory]">
+    <ui:LogMessage DisplayName="EndProcess started" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;EndProcess started&quot;]" />
+    <t:Logout sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Logout_1" />
+    <t:KillBrowser sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="KillBrowser_1" in_Application="chrome.exe" />
+    <t:CreateResultJSON sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="CreateResultJSON_1" in_FinalJSON="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;LastWorkItemJSON&quot;).ToString]" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_MiddleInformationTemplate="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;RecordsJSON&quot;).ToString]" in_ResultRecordsTemplate="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FInalTemplateJSON&quot;).ToString]" />
+    <t:End_Hook sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="End_Hook_1" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_SummaryFieldNames="[in_SummaryFieldNames]" out_ResultRecords="[ResultRecords]" out_SummaryMessage="[SummaryMessage]" out_SummaryResultJson="[SummaryResultJSON]" />
+    <euhe:End_Task_Execution DisplayName="End Task Execution" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="End_Task_Execution_1" SummaryResultObject="[IF(String.IsNullOrEmpty(SummaryResultJson),&quot;{}&quot;,SummaryResultJson)]" TaskResult="[ResultRecords]" TaskResultSummary="[SummaryMessage]" TaskRunStatus="Completed" __Prefix="[IO.Directory.GetCurrentDirectory]">
       <euhe:End_Task_Execution.FailureReason>
         <InArgument x:TypeArguments="x:String">
           <Literal x:TypeArguments="x:String" DisplayName="Literal&lt;String&gt;" Value="" />
@@ -142,11 +145,13 @@
       </euhe:End_Task_Execution.FailureReason>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </euhe:End_Task_Execution>
-    <t:SendFinalReportToUser sap:VirtualizedContainerService.HintSize="284,22" sap2010:WorkflowViewState.IdRef="SendFinalReportToUser_1" in_Body="[in_FlowConfig(&quot;Body&quot;).ToString]" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_MailAsset="[in_FlowConfig(&quot;BotMailCredetential&quot;).ToString]" in_Port="[CInt(in_FlowConfig(&quot;SMTPPORT&quot;).ToString)]" in_Server="[in_FlowConfig(&quot;SMTPServer&quot;).ToString]" in_Subject="[in_FlowConfig(&quot;Subject&quot;).ToString]" in_UserMail="[in_FlowConfig(&quot;FinalUserMail&quot;).ToString]" />
+    <ui:LogMessage DisplayName="Sending final report to user" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Sending final report to user&quot;]" />
+    <t:SendFinalReportToUser sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="SendFinalReportToUser_1" in_Body="[in_FlowConfig(&quot;Body&quot;).ToString]" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_MailAsset="[in_FlowConfig(&quot;BotMailCredetential&quot;).ToString]" in_Port="[CInt(in_FlowConfig(&quot;SMTPPORT&quot;).ToString)]" in_Server="[in_FlowConfig(&quot;SMTPServer&quot;).ToString]" in_Subject="[in_FlowConfig(&quot;Subject&quot;).ToString]" in_UserMail="[in_FlowConfig(&quot;FinalUserMail&quot;).ToString]" />
+    <ui:LogMessage DisplayName="EndProcess ended" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;EndProcess ended&quot;]" />
   </Sequence>
 </Activity>

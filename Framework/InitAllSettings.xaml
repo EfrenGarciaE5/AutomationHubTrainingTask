@@ -1,12 +1,54 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="InitAllSettings" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:euhe="clr-namespace:Element5_Core.Utils.Hooks.Execution_Hooks;assembly=Element5.Core" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:t="clr-namespace:TrainingLibrary;assembly=TrainingLibrary" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property sap2010:Annotation.AnnotationText="Provide asset name with the credentials for automation hub" Name="in_AssetAutomationHub" Type="InArgument(x:String)" />
-    <x:Property sap2010:Annotation.AnnotationText="Client name provided by the  begin task activity" Name="out_ClientName" Type="OutArgument(x:String)" />
-    <x:Property sap2010:Annotation.AnnotationText="Deep link provided by the  begin task activity" Name="out_DeepLink" Type="OutArgument(x:String)" />
-    <x:Property sap2010:Annotation.AnnotationText="Flow config provided by the  begin task activity" Name="out_FlowConfig" Type="OutArgument(njl:JObject)" />
-    <x:Property sap2010:Annotation.AnnotationText="Process ID provided by the  begin task activity" Name="out_ProcessID" Type="OutArgument(x:String)" />
-    <x:Property sap2010:Annotation.AnnotationText="Summary field names provided by the  begin task activity" Name="out_SummaryFieldNames" Type="OutArgument(scg:List(x:String))" />
-    <x:Property sap2010:Annotation.AnnotationText="Task ID provided by the  begin task activity" Name="out_TaskID" Type="OutArgument(x:String)" />
+    <x:Property sap2010:Annotation.AnnotationText="Provide asset name with the credentials for automation hub" Name="in_AssetAutomationHub" Type="InArgument(x:String)">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </x:Property>
+    <x:Property sap2010:Annotation.AnnotationText="Client name provided by the  begin task activity" Name="out_ClientName" Type="OutArgument(x:String)">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </x:Property>
+    <x:Property sap2010:Annotation.AnnotationText="Deep link provided by the  begin task activity" Name="out_DeepLink" Type="OutArgument(x:String)">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </x:Property>
+    <x:Property sap2010:Annotation.AnnotationText="Flow config provided by the  begin task activity" Name="out_FlowConfig" Type="OutArgument(njl:JObject)">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </x:Property>
+    <x:Property sap2010:Annotation.AnnotationText="Process ID provided by the  begin task activity" Name="out_ProcessID" Type="OutArgument(x:String)">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </x:Property>
+    <x:Property sap2010:Annotation.AnnotationText="Summary field names provided by the  begin task activity" Name="out_SummaryFieldNames" Type="OutArgument(scg:List(x:String))">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </x:Property>
+    <x:Property sap2010:Annotation.AnnotationText="Task ID provided by the  begin task activity" Name="out_TaskID" Type="OutArgument(x:String)">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </x:Property>
   </x:Members>
   <this:InitAllSettings.in_AssetAutomationHub>
     <InArgument x:TypeArguments="x:String" />
@@ -14,7 +56,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1054,520</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1054,970</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>InitAllSettings_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
@@ -59,7 +101,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="24">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="48">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -84,9 +126,15 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>TrainingLibrary</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="376,455" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="The following workflow is in charge of init the task in automation hub, and get all the config information that the bot will need." DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="376,905" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ss:SecureString" Name="HookPassword" />
       <Variable x:TypeArguments="x:String" Name="HookUsername" />
@@ -98,9 +146,12 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Starting task" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Starting task: &quot;+TaskName]" />
+    <ui:LogMessage DisplayName="Init All Settings started" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Init All Settings started&quot;]" />
+    <ui:LogMessage DisplayName="Starting task" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Starting task: &quot;+TaskName]" />
+    <ui:LogMessage DisplayName="Getting ACME credentials" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Getting Automation Hub credentials&quot;]" />
     <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_AssetAutomationHub]" DisplayName="Get Hook Credentials" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[HookPassword]" Username="[HookUsername]" />
     <euhe:Begin_Task_Execution ClientName="[out_ClientName]" DeepLink="[out_DeepLink]" DisplayName="Begin Calculate Client Security Hash" FlowConfig="[out_FlowConfig]" sap:VirtualizedContainerService.HintSize="334,51" HookPassword="[HookPassword]" HookURL="[AutomationHubURL]" HookUserName="[HookUsername]" sap2010:WorkflowViewState.IdRef="Begin_Task_Execution_1" ProcessIdentifier="[out_ProcessID]" ProcessName="[ProcessName]" SummaryFieldNames="[out_SummaryFieldNames]" TaskName="[TaskName]" TaskRunIdentifier="[out_TaskID]" __Prefix="[IO.Directory.GetCurrentDirectory]">
       <sap:WorkflowViewStateService.ViewState>
@@ -111,5 +162,6 @@
       </sap:WorkflowViewStateService.ViewState>
     </euhe:Begin_Task_Execution>
     <t:KillBrowser sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="KillBrowser_1" in_Application="chrome.exe" />
+    <ui:LogMessage DisplayName="Init All Settings ended" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Init All Settings ended&quot;]" />
   </Sequence>
 </Activity>

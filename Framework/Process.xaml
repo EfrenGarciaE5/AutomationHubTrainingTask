@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1324,2697</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1396,3134</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Process_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="32">
@@ -74,10 +74,11 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Process" sap:VirtualizedContainerService.HintSize="1334,2632" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This workflow is the perfomer part, the bot will look for the work item details and get the hash code, also will append the information required for the final report for the user." DisplayName="Process" sap:VirtualizedContainerService.HintSize="1406,3069" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="TransactionWI" />
       <Variable x:TypeArguments="x:String" Name="TransactionType" />
@@ -96,9 +97,11 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign DisplayName="TransactionWI" sap:VirtualizedContainerService.HintSize="1292,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <ui:LogMessage DisplayName="Process started" sap:VirtualizedContainerService.HintSize="1364,93" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Process started&quot;]" />
+    <Assign DisplayName="TransactionWI" sap:VirtualizedContainerService.HintSize="1364,60" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[TransactionWI]</OutArgument>
       </Assign.To>
@@ -106,7 +109,7 @@
         <InArgument x:TypeArguments="x:String">[in_TransactionItem.SpecificContent("WIID").ToString]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign DisplayName="Transaction WI Type" sap:VirtualizedContainerService.HintSize="1292,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign DisplayName="Transaction WI Type" sap:VirtualizedContainerService.HintSize="1364,60" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[TransactionType]</OutArgument>
       </Assign.To>
@@ -114,7 +117,7 @@
         <InArgument x:TypeArguments="x:String">[in_TransactionItem.SpecificContent("Type").ToString]</InArgument>
       </Assign.Value>
     </Assign>
-    <If Condition="[TransactionType.ToUpper = in_FlowConfig(&quot;RequiredWorkItemType&quot;).ToString Or TransactionType.ToUpper=&quot;WIS&quot;]" DisplayName="Is WI5" sap:VirtualizedContainerService.HintSize="1292,1994" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[TransactionType.ToUpper = in_FlowConfig(&quot;RequiredWorkItemType&quot;).ToString]" DisplayName="Is WI5?" sap:VirtualizedContainerService.HintSize="1364,1863" sap2010:WorkflowViewState.IdRef="If_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -122,14 +125,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <If.Then>
-        <Sequence DisplayName="Process the work item" sap:VirtualizedContainerService.HintSize="943,1836" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence DisplayName="Process the work item" sap:VirtualizedContainerService.HintSize="943,1703" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="901,93" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
           <t:CreateRecordsFile sap:VirtualizedContainerService.HintSize="901,22" sap2010:WorkflowViewState.IdRef="CreateRecordsFile_1" in_RecordsFilePath="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;RecordsFileName&quot;).ToString]" out_Records="[Records]" />
           <If Condition="[Not Records.Contains(TransactionWI)]" DisplayName="If Workitem is not in records file" sap:VirtualizedContainerService.HintSize="901,1549" sap2010:WorkflowViewState.IdRef="If_1">
             <sap:WorkflowViewStateService.ViewState>
@@ -145,7 +147,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:LogMessage DisplayName=" Processing..." sap:VirtualizedContainerService.HintSize="438,93" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Processing &quot;+TransactionWI]">
+                <ui:LogMessage DisplayName=" Processing work item" sap:VirtualizedContainerService.HintSize="438,93" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Processing &quot;+TransactionWI]">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -167,13 +169,13 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Get Details" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Get Details&quot;]" />
+                      <ui:LogMessage DisplayName="Get Details" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Get Details&quot;]" />
                       <t:GetWorkItemsDetails sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="GetWorkItemsDetails_1" in_WorkItemID="[TransactionWI]" in_WorkItemsURL="[in_FlowConfig(&quot;WorkItemsURL&quot;).ToString]" out_ClientID="[ClientID]" out_ClientName="[ClientName]" out_Country="[Country]" out_HashText="[HashText]" out_Type="[Type]" out_WIDDate="[DateWorkItem]" out_WIID="[WIID]" />
-                      <ui:LogMessage DisplayName="Open Sha" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Open SHA&quot;]" />
+                      <ui:LogMessage DisplayName="Open Sha" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Open SHA&quot;]" />
                       <t:LaunchGoogleChrome Out_BrowserUI="{x:Null}" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="LaunchGoogleChrome_1" in_InitialURL="[in_FlowConfig(&quot;SHA1_Online_URL&quot;).ToString]" />
-                      <ui:LogMessage DisplayName="Getting Sha Code" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Getting Sha Code&quot;]" />
+                      <ui:LogMessage DisplayName="Getting Sha Code" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Getting Sha Code&quot;]" />
                       <t:Get_Sha_Code sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Get_Sha_Code_1" in_HashText="[HashText]" out_ShaCode="[ShaCode]" />
-                      <ui:LogMessage DisplayName="Update WorkItem" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;Update WorkItem&quot;]" />
+                      <ui:LogMessage DisplayName="Update WorkItem" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Trace" Message="[&quot;Update WorkItem&quot;]" />
                       <t:UpdateWI sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="UpdateWI_1" in_ShaCode="[ShaCode]" />
                       <Assign DisplayName="Exception" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_3">
                         <Assign.To>
@@ -220,7 +222,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:LogMessage DisplayName="Skip" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Skip already in records&quot;]" />
+                <ui:LogMessage DisplayName="Skip" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Trace" Message="[&quot;Skip already in records&quot;]" />
                 <Assign DisplayName="Skip" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_5">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[ExceptionText]</OutArgument>
@@ -235,13 +237,14 @@
         </Sequence>
       </If.Then>
       <If.Else>
-        <Sequence DisplayName="Skip Not WI5" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence DisplayName="Skip Not WI5" sap:VirtualizedContainerService.HintSize="376,285" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Not WI5" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+          <ui:LogMessage DisplayName="Not an WI5" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Trace" Message="[&quot;Not an WI5&quot;]" />
+          <Assign DisplayName="Not WI5" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_6">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[ExceptionText]</OutArgument>
             </Assign.To>
@@ -252,8 +255,10 @@
         </Sequence>
       </If.Else>
     </If>
-    <t:ValidateStatus sap:VirtualizedContainerService.HintSize="1292,22" sap2010:WorkflowViewState.IdRef="ValidateStatus_1" in_ExceptionText="[ExceptionText]" out_Status="[Status]" />
-    <Switch x:TypeArguments="x:String" DisplayName="Append New Status" Expression="[Status]" sap:VirtualizedContainerService.HintSize="1292,182" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+    <ui:LogMessage DisplayName="Validating status" sap:VirtualizedContainerService.HintSize="1364,93" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Trace" Message="[&quot;Validating status&quot;]" />
+    <t:ValidateStatus sap:VirtualizedContainerService.HintSize="1364,22" sap2010:WorkflowViewState.IdRef="ValidateStatus_1" in_ExceptionText="[ExceptionText]" out_Status="[Status]" />
+    <ui:LogMessage DisplayName="Append to Final Report" sap:VirtualizedContainerService.HintSize="1364,93" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Trace" Message="[&quot;Append to Final Report&quot;]" />
+    <Switch x:TypeArguments="x:String" DisplayName="Append New Status" Expression="[Status]" sap:VirtualizedContainerService.HintSize="1364,187" sap2010:WorkflowViewState.IdRef="Switch`1_1">
       <t:CreateFinalReport x:Key="Completed" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="CreateFinalReport_1" in_ClientID="[ClientID]" in_Date="[DateWorkItem]" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_HashKey="[ShaCode]" in_ProcessFile="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ProcessCsvName&quot;).ToString]" in_Reason="[ExceptionText]" in_Status="[Status]" in_TemplateFinalReport="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ReportTemplate&quot;).ToString]" in_Transactionitem="[TransactionWI]" in_Type="[Type]" in_WIID="[WIID]" />
       <t:CreateFinalReport x:Key="Skiped" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="CreateFinalReport_2" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_ProcessFile="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ProcessCsvName&quot;).ToString]" in_Reason="[ExceptionText]" in_Status="[Status]" in_TemplateFinalReport="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ReportTemplate&quot;).ToString]" in_Transactionitem="[TransactionWI]" in_Type="[TransactionType]" in_WIID="[TransactionWI]">
         <t:CreateFinalReport.in_ClientID>
@@ -274,6 +279,7 @@
       </t:CreateFinalReport>
       <t:CreateFinalReport x:Key="Failed" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="CreateFinalReport_3" in_ClientID="[ClientID]" in_Date="[DateWorkItem]" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_HashKey="[ShaCode]" in_ProcessFile="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ProcessCsvName&quot;).ToString]" in_Reason="[ExceptionText]" in_Status="[Status]" in_TemplateFinalReport="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ReportTemplate&quot;).ToString]" in_Transactionitem="[TransactionWI]" in_Type="[Type]" in_WIID="[WIID]" />
     </Switch>
-    <t:AppendRecords sap:VirtualizedContainerService.HintSize="1292,22" sap2010:WorkflowViewState.IdRef="AppendRecords_1" in_RecordsFile="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;RecordsFileName&quot;).ToString]" in_WorkItemFromQueue="[TransactionWI]" />
+    <t:AppendRecords sap:VirtualizedContainerService.HintSize="1364,22" sap2010:WorkflowViewState.IdRef="AppendRecords_1" in_RecordsFile="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;RecordsFileName&quot;).ToString]" in_WorkItemFromQueue="[TransactionWI]" />
+    <ui:LogMessage DisplayName="Process ended" sap:VirtualizedContainerService.HintSize="1364,93" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;Process ended&quot;]" />
   </Sequence>
 </Activity>
