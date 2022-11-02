@@ -14,7 +14,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>934,702</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1054,520</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>InitAllSettings_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
@@ -86,7 +86,7 @@
       <AssemblyReference>TrainingLibrary</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="376,637" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="376,455" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ss:SecureString" Name="HookPassword" />
       <Variable x:TypeArguments="x:String" Name="HookUsername" />
@@ -110,42 +110,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </euhe:Begin_Task_Execution>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="CommentOut_3">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="426,171" sap2010:WorkflowViewState.IdRef="Sequence_4">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <ui:ReadTextFile Content="[configtext]" DisplayName="Read Config" FileName="Data\Config.json" sap:VirtualizedContainerService.HintSize="384,79" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
-        </Sequence>
-      </ui:CommentOut.Body>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="CommentOut_4">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_5">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[out_FlowConfig]" JsonString="[configtext]" />
-        </Sequence>
-      </ui:CommentOut.Body>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:CommentOut>
     <t:KillBrowser sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="KillBrowser_1" in_Application="chrome.exe" />
   </Sequence>
 </Activity>
