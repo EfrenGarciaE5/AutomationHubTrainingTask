@@ -1,7 +1,8 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="EndProcess" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:euhe="clr-namespace:Element5_Core.Utils.Hooks.Execution_Hooks;assembly=Element5.Core" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:t="clr-namespace:TrainingLibrary;assembly=TrainingLibrary" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Flow config provided by the  begin task activity" Name="in_FlowConfig" Type="InArgument(njl:JObject)" />
-    <x:Property Name="in_SummaryFieldNames" Type="InArgument(scg:List(x:String))" />
+    <x:Property sap2010:Annotation.AnnotationText="Summary Fields Given by the start task activity" Name="in_SummaryFieldNames" Type="InArgument(scg:List(x:String))" />
+    <x:Property sap2010:Annotation.AnnotationText="BRowser UI to logout" Name="in_BrowserUI" Type="InArgument(ui:Browser)" />
   </x:Members>
   <this:EndProcess.in_SummaryFieldNames>
     <InArgument x:TypeArguments="scg:List(x:String)" />
@@ -9,7 +10,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1054,911</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>815,911</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>EndProcess_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="59">
@@ -118,7 +119,6 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="EndProcess" sap:VirtualizedContainerService.HintSize="376,846" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -133,7 +133,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="EndProcess started" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;EndProcess started&quot;]" />
-    <t:Logout sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Logout_1" />
+    <t:Logout sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Logout_1" in_UIBRowser="[in_BrowserUI]" />
     <t:KillBrowser sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="KillBrowser_1" in_Application="chrome.exe" />
     <t:CreateResultJSON sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="CreateResultJSON_1" in_FinalJSON="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;LastWorkItemJSON&quot;).ToString]" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_MiddleInformationTemplate="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;RecordsJSON&quot;).ToString]" in_ResultRecordsTemplate="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FInalTemplateJSON&quot;).ToString]" />
     <t:End_Hook sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="End_Hook_1" in_FinalReportPath="[in_FlowConfig(&quot;Datafolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;FinalReport&quot;).ToString]" in_SummaryFieldNames="[in_SummaryFieldNames]" out_ResultRecords="[ResultRecords]" out_SummaryMessage="[SummaryMessage]" out_SummaryResultJson="[SummaryResultJSON]" />

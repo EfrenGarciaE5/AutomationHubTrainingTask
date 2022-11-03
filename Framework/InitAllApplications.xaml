@@ -1,11 +1,12 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="InitAllApplications" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:t="clr-namespace:TrainingLibrary;assembly=TrainingLibrary" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Flow config provided by the  begin task activity" Name="in_FlowConfig" Type="InArgument(njl:JObject)" />
+    <x:Property sap2010:Annotation.AnnotationText="UI of browser ACME" Name="out_BrowserLoggedACME" Type="OutArgument(ui:Browser)" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1054,1208</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>815,1308</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>InitAllApplications_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="52">
@@ -104,12 +105,12 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This workflow will work kind of dispatcher, in this part the bot will login into ACME site and will get the WotkItems located in the site in order to start the job." DisplayName="InitAllApplications" sap:VirtualizedContainerService.HintSize="376,1143" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This workflow will work kind of dispatcher, in this part the bot will login into ACME site and will get the WotkItems located in the site in order to start the job." DisplayName="InitAllApplications" sap:VirtualizedContainerService.HintSize="376,1243" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="WorkItemsDT" />
+      <Variable x:TypeArguments="ui:Browser" Name="BrowserUIACME" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -119,11 +120,19 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="InitAllApplications started" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;InitAllApplications started&quot;]" />
     <ui:LogMessage DisplayName="Opening ACME 1 and create queues" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Opening ACME site&quot;]" />
-    <t:LaunchGoogleChrome Out_BrowserUI="{x:Null}" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="LaunchGoogleChrome_1" in_InitialURL="[in_FlowConfig(&quot;System_1_URL&quot;).ToString]" />
+    <t:LaunchGoogleChrome sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="LaunchGoogleChrome_1" Out_BrowserUI="[BrowserUIACME]" in_InitialURL="[in_FlowConfig(&quot;System_1_URL&quot;).ToString]" />
     <ui:LogMessage DisplayName="Login to ACME 1" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Login to ACME site&quot;]" />
-    <t:LoginACME sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="LoginACME_1" in_AssetCredentialACME="[in_FlowConfig(&quot;System1CredentialAsset&quot;).ToString]" />
+    <t:LoginACME BrowserUILogin="[BrowserUIACME]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="LoginACME_1" in_AssetCredentialACME="[in_FlowConfig(&quot;System1CredentialAsset&quot;).ToString]" />
     <ui:LogMessage DisplayName="Get WorkItems" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Get WorkItems&quot;]" />
-    <t:System1GetWorkItems sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="System1GetWorkItems_1" in_ProcessFile="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ProcessCsvName&quot;).ToString]" in_WorkItemsURL="[in_FlowConfig(&quot;WorkItemsURL&quot;).ToString]" out_WorkItemsDT="[WorkItemsDT]" />
+    <t:System1GetWorkItems BowserUIWorkItems="[BrowserUIACME]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="System1GetWorkItems_1" in_ProcessFile="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ProcessCsvName&quot;).ToString]" in_WorkItemsURL="[in_FlowConfig(&quot;WorkItemsURL&quot;).ToString]" />
+    <Assign DisplayName="Send UI To next activity" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="ui:Browser">[out_BrowserLoggedACME]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="ui:Browser">[BrowserUIACME]</InArgument>
+      </Assign.Value>
+    </Assign>
     <ui:LogMessage DisplayName="Create Queues" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Creating queues&quot;]" />
     <t:CreateQueueItems sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="CreateQueueItems_1" in_FileToProcess="[in_FlowConfig(&quot;TempFolder&quot;).ToString+&quot;\&quot;+in_FlowConfig(&quot;ProcessCsvName&quot;).ToString]" in_QueueFolder="[in_FlowConfig(&quot;OrchestratorQueueFolder&quot;).ToString]" in_QueueName="[in_FlowConfig(&quot;OrchestratorQueueName&quot;).ToString]" />
     <ui:LogMessage DisplayName="InitAllApplications ended" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;InitAllApplications ended&quot;]" />

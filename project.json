@@ -4,7 +4,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "Element5.Core": "[1.2.26-alpha.1]",
-    "TrainingLibrary": "[1.0.14]",
+    "TrainingLibrary": "[1.0.19]",
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.18.1]",
     "UiPath.System.Activities": "[21.10.3]",
